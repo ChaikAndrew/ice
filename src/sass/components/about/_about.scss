@@ -176,19 +176,20 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  overflow-y: scroll;
+  // overflow-y: scroll;
 
   width: 90vw;
   height: 80vh;
 
-  border: 1px solid var(--red-text-color);
+  // border: 1px solid var(--red-text-color);
   background-color: #ffb8ca;
   border-radius: 10px;
 
   transition-duration: 1000ms;
   transition-timing-function: 300ms;
   background-size: 100%;
-  background-image: url(../images/about-image/bg-about-image-sm@1x.png);
+  box-shadow: 0 6px 9px -2px #cf9eac;
+  // background-image: url(../images/about-image/bg-about-image-sm@1x.png);
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -215,6 +216,7 @@
   padding: 0;
   background-color: var(--white-text-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 .data-modal-about__svg {
   display: block;
