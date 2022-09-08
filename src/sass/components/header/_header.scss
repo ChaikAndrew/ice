@@ -107,7 +107,7 @@
     &:focus,
     &:hover {
       background-color: #ecebeb;
-      box-shadow: inset 3px 3px 10px #da4141;
+      // box-shadow: inset 3px 3px 10px #da4141;
     }
   }
 }
@@ -225,13 +225,13 @@
 
   &__label {
     font-family: 'DM Sans';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 18px;
-     color: #FFFFFF;
-     text-align: center;
-     margin-bottom: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 6px;
   }
 
   &__input {
